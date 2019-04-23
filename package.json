@@ -27,7 +27,7 @@
     "@skyux/i18n": "^3.5.2",
     "@skyux/indicators": "^3.0.3",
     "@skyux/inline-form": "^3.0.0",
-    "@skyux/lists": "https://github.com/blackbaud/skyux-lists#dist",
+    "@skyux/lists": "git+https://github.com/blackbaud/skyux-lists.git#dist",
     "@skyux/popovers": "^3.0.0",
     "@skyux/theme": "^3.4.1",
     "core-js": "^2.5.4",

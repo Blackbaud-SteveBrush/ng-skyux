@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { SkyPagingModule } from 'stevebrush-skyux-lists-test';
+const skyux = require('@skyux/lists');
 
 @NgModule({
   declarations: [
@@ -13,7 +13,7 @@ import { SkyPagingModule } from 'stevebrush-skyux-lists-test';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SkyPagingModule
+    skyux.SkyPagingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
